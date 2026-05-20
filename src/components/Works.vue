@@ -25,8 +25,8 @@ const works = [
   <div id="works" class="p-8 text-4xl">
     works
   </div>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-    <div v-for="(work, index) in works" :key="index" class="border p-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div v-for="(work, index) in works" :key="index" class="p-4">
       <img :src="work.image" alt="" class="w-full h-auto mb-4">
       <h3 class="text-xl font-bold mb-2">{{ work.title }}</h3>
       <p>{{ work.description }}</p>

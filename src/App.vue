@@ -1,14 +1,13 @@
 <script setup>
-
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import About from './components/About.vue';
-import Works from './components/Works.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <Header/>
-  <About />
-  <Works /> 
-  <Footer />
+  <div class="max-w-5xl mx-auto w-full">
+    <Header />
+    <RouterView />
+    <Footer />
+  </div>
 </template>

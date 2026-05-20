@@ -1,11 +1,18 @@
 <script setup></script>
 
 <template>
-  <a class="border p-8 title block">
-    header
-  </a>
+  <header class="p-8">
+    <nav class="flex gap-6 text-lg">
+      <RouterLink to="/">About</RouterLink>
+      <RouterLink to="/works">Works</RouterLink>
+    </nav>
+  </header>
 </template>
 
 <style scoped>
+
+a.router-link-active {
+  font-weight: 700;
+}
 
 </style>

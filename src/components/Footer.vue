@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="border p-8">
+  <div class="p-8">
     footer
   </div>
 </template>
